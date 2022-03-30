@@ -1,0 +1,354 @@
+/* default reset styling */
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size:100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my code */
+
+/*header*/
+
+* {
+    text-decoration: none;
+}
+
+body {
+	background-color: #FFFAFF;
+}
+
+header {
+	display: block;
+	height: 62px;
+	width: 100%;
+	background-color: #050401;
+	position: fixed;
+	top: 0;
+}
+
+header .index-logo {
+	float: left;
+	color: #FFFAFF;
+	text-transform: uppercase;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 550;
+	line-height: 62px;
+	margin-left: 15px;
+}
+
+/*the header span colors part of the logo*/
+
+header span {
+	color: #FC5130;
+}
+
+header form {
+	display: inline-flex;
+	float: left;
+	height: 62px;
+	margin: auto 0 auto 13px;
+}
+
+header form input {
+	width: 80px;
+	height: 20px;
+	margin: 21px 0;
+	border: none;
+	border-radius: 6px;
+}
+
+header form button {
+	width: 20px;
+	height: 20px;
+	border: none;
+	border-radius: 6px;
+	margin: 21px 0 0 0;
+	background-color: #050401;
+}
+	
+header form .search-icon img{
+	height: inherit;
+	width: inherit;
+}
+
+header nav {
+	float: right;
+	width: auto;
+}
+
+header nav ul {
+	margin-right: 15px;
+	line-height: 62px;
+}
+
+header nav ul li {
+	float: left;
+	color: #FFFAFF;
+}
+
+header nav ul a {
+	color: #FFFAFF;
+	padding: 8px 4px;
+	margin: 10px 2px;
+	font-family: Poppins;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+header ul .header-contact {
+	background-color: #FC5130;
+	line-height: 20px;
+	margin: 21px 0;
+	border-radius: 4px;
+}
+
+/*banner section and other sections of the web*/
+
+.sections {
+	display: block;
+	height: calc(100vh - 62px);
+	width: 0 auto;
+	padding-top: 62px;
+}
+
+.banner-section {
+	background-image: url("img/banner image.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 67%;
+	width: inherit;
+}
+
+.banner-quick-links {
+	display: flex;
+	flex-flow: row nowrap;
+	width: 100%;
+}
+
+.banner-quick-links a {
+	color: #050401;
+	font-family: poppins;
+	font-weight: 500;
+	width: inherit;
+	margin: 10px auto;
+	padding: 8px;
+	text-align: center;
+}
+
+.banner-text {
+	display: block;
+	float: right;
+	width: 270px;
+	margin: 30px 110px 0 0;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 55px;
+	font-weight: 770;
+	text-transform: uppercase;
+	color: #FFFAFF;
+	line-height: 90px;
+	text-shadow: 2px 2px 2px #050401;
+}
+
+.banner-text span {
+	color: #FC5130;
+}
+
+.products-section {
+	width: calc(100% - 20px);
+	margin: 0 auto;
+	background-color: #FFFAFF;
+	height: calc(100% - 67%);
+	display: block;
+	align-content: center;
+}
+
+.main-prod-div {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+}
+
+.main-prod-div a {
+	display: block;
+	height: 170px;
+	width: 20%;
+	margin: auto 2px 8px 2px;
+	border-radius: 8px;
+	box-shadow: 0 2px 3px #050401;
+}
+
+.main-prod-div a p {
+	background-color: #050401;
+	color: #FFFAFF;
+	font-family: poppins;
+	font-size: 10px;
+	border-radius: inherit;
+	margin-top: 113px;
+	height: 50px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.taller-div-box1 {
+	background-image: url("img/female dress.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding-top: 18px;
+}
+
+.mid-div-box1 {
+	background-image: url("img/female shoe.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+.mid-div-box2 {
+	background-image: url("img/sunglass.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-position-y: -30px;
+	background-size:cover;
+}
+
+.mid-div-box3 {
+	background-image: url("img/male shoe.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-position-y: -20px;
+	background-size:cover;
+}
+
+.products-section .taller-div-box2 {
+	background-image: url("img/male dress.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding-top: 18px;
+}
+
+@media only screen and (min-width: 1000px) {
+	header .index-logo {
+		font-size: 35px;
+		font-weight: 600;
+		margin-left: 45px;
+	}
+	
+	/*the header span colors part of the logo*/
+	
+	header form {
+		margin: auto 0 auto 4.5%;
+	}
+	
+	header form input {
+		width: 250px;
+		height: 25px;
+		margin: 18.5px 0;
+	}
+	
+	header nav ul {
+		margin-right: 45px;
+	}
+	
+	header nav ul a {
+		margin: 10px 3px;
+		font-size: 15px;
+	}
+		
+	/*banner section and other sections of the web*/
+
+	.banner-section {
+		height: 60%;
+		background-position-y: -180px;
+	}
+
+	.banner-quick-links {
+		width: 40%;
+		margin-left: 70px;
+	}
+
+	.banner-quick-links a {
+		font-size: 15px;
+	}
+
+	.banner-text {
+		margin: 5px 130px 0 0;
+		line-height: 75px;
+	}
+
+	.products-section {
+		width: calc(100% - 100px);
+		background-color: #FFFAFF;
+		height: calc(100% - 60%);
+	}
+
+	.main-prod-div a {
+		height: 208px;
+		margin: auto 20px 8px 20px;
+		box-shadow: 0 2px 3px #050401;
+	}
+
+	.main-prod-div a p {
+		font-size: 12px;
+		margin-top: 150px;
+	}
+
+	.taller-div-box1 {
+		padding-top: 18px;
+		background-position-y: 20%;
+	}
+
+	.mid-div-box2 {
+		background-position-y: 60%;
+	}
+
+	.products-section .taller-div-box2 {
+		background-position-y: 10%;
+	}
+	
+	
+}
