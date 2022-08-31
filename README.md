@@ -1,5 +1,5 @@
 # eCommerceHomePage1
-This is my first eCommerce homepage built using HTML and CSS. It use to be a UI design I made some time ago, but it is now lines of codes and I am happy with my progress.
+This is my first eCommerce homepage built using HTML and CSS. It use to be a UI design I made some time ago, but it is now lines of code and I am happy with my progress.
 
 It is a page with other sub-pages leading to other parts of the business pages for easy and fun choice shopping. However, this repository contains only the homepage and I built it with the intent of perfecting my _HTML_ and _CSS_ knowledge so far. 
 
